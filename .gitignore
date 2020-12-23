@@ -1,0 +1,80 @@
+# Netbeans
+nbproject/
+
+# ISP Manager
+webstat/
+
+# nodeJS
+node_modules/
+
+# PHPStorm
+.idea/
+
+# Mercurial
+.hg
+
+# SVN
+.svn
+
+# Linux
+*~
+
+*.db
+*.cache
+.DS_Store
+
+*.log
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+wp-content/themes/tdrisk/node_modules
+wp-content/themes/tdrisk/assets
+wp-content/uploads/cache/wpml
+
+/readme.html
+/license.txt
+
+robots.txt
+
+# known large file types
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi
