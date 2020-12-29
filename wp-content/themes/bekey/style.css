@@ -977,3 +977,32 @@ textarea {
 /*	text-align: center;*/
 /*	background: blue;*/
 /*}*/
+
+/*   Custom styles  */
+.post-image {
+	overflow: hidden;
+}
+.post-image:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: -7px;
+	z-index: 3;
+	transform: skewX(-45deg);
+	width: 255px;
+	height: 15px;
+	background: #fff;
+}
+.grid .post-image:after {
+	content: "";
+	top: auto;
+	position: absolute;
+	bottom: 0;
+	background: none;
+	left: -7px;
+	z-index: 3;
+	transform: skewX(45deg);
+	width: 95px;
+	height: 15px;
+	background: #fff;
+}
